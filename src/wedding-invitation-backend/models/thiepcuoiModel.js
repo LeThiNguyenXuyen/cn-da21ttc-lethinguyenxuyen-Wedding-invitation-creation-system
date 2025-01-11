@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 // Định nghĩa Schema cho từng hộp văn bản
 const BoxSchema = new mongoose.Schema({
-  name: { type: String, required: true }, // Tên hộp (e.g., "Tên chú rể", "Tên cô dâu")
+  name: { type: String, required: false }, // Tên hộp (e.g., "Tên chú rể", "Tên cô dâu")
   position: {
     x: { type: Number, required: true }, // Tọa độ X
     y: { type: Number, required: true }, // Tọa độ Y

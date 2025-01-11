@@ -87,6 +87,8 @@ const getAllUsers = async (req, res) => {
   }
 };
 
+
+
 const getUserCount = async (req, res) => {
   try {
     // Đếm số lượng người dùng trong cơ sở dữ liệu
